@@ -1,4 +1,4 @@
-<form action = "calculation.php" method = "post"> 
+<form action = "calc.php" method = "post"> 
 	<table> 
 	<tr>
 		<td>Enter the first number: </td>
@@ -18,7 +18,7 @@
 </form>
 
 <?php
-	include "function.php";
+	include "func.php";
 	if(isset($_POST['calculation'])) {
 		$number1 = $_POST['num1'];
 		$number2 = $_POST['num2'];
