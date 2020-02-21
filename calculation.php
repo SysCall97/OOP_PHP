@@ -1,4 +1,3 @@
-
 <form action = "calculation.php" method = "post"> 
 	<table> 
 	<tr>
